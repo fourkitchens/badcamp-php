@@ -1,0 +1,25 @@
+name = Four Kitchens BADcamp PHP Training
+description = Install features we need for the BADcamp training
+version = 1.0
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = dblog
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Dependencies new to standard theme.
+dependencies[] = devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
