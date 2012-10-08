@@ -1,0 +1,4 @@
+name = Four Kitchens Example Code
+description = A module with the completed code we need for the 2012 BAD camp PHP training.
+package = Four Kitchens
+core = 7.x
