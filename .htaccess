@@ -1,0 +1,3 @@
+
+# Allow the index.php file to be shown first.
+DirectoryIndex index.php index.html
