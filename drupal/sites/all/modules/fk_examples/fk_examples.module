@@ -5,4 +5,36 @@
  * A module for the 2012 BAD camp training.
  */
 
+/**
+ * Implements hook_menu().
+ */
+function fk_examples_menu() {
+  $items['4k_example'] = array(
+    'title' => t('Four Kitchens Example Module Page'),
+    'page callback' => 'mymodule_abc_view',
+    'type' => MENU_NORMAL_ITEM,
+//    'access callback' => 'user_access',
+    'access arguments' => array('use fk examples'),
+  );
 
+  return $items;
+}
+
+/**
+ * A callback function for the menu hook.
+ */
+function fk_examples_admin_page() {
+  return t('This is the administration page');
+}
+
+/**
+ * Implements hook_permission()
+ */
+function fk_examples_permission() {
+  return array(
+    'use fk examples' => array(
+      'title' => t('Use the Four Kitchens example module.'), 
+      'description' => t('Allows you to access the single page this module provides.'),
+    ),
+  );
+}
