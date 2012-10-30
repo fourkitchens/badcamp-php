@@ -21,6 +21,8 @@
   echo "<p>This is the echo command.</p>";
 
   print "<h2>This is the print command.</h2>";
+  
+  echo "<p>Test GIT</p>";
 
 ?>
 
